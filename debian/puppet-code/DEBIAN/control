@@ -1,0 +1,12 @@
+Package: puppet-code
+Version: 0.1.0-1build2
+Architecture: all
+Maintainer: Oleksandr Kuzminskyi <aleks@infrahouse.com>
+Installed-Size: 27
+Depends: puppet-agent
+Section: admin
+Priority: optional
+Homepage: https://infrahouse.com
+Description: InfraHouse Puppet Roles and Profiles
+ Puppet is the second layer of provisioining in InfraHouse.
+ This package contains all puppet manifests, modules and hiera files.
