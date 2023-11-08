@@ -1,3 +1,15 @@
+infrahouse-puppet-data (0.1.0-1build2) jammy; urgency=medium
+
+  * commit event. see changes history in git log
+
+ -- Oleksandr Kuzminskyi <aleks@infrahouse.com>  Wed, 08 Nov 2023 06:27:05 -0800
+
+infrahouse-puppet-data (0.1.0-1build1) jammy; urgency=medium
+
+  * commit event. see changes history in git log
+
+ -- Oleksandr Kuzminskyi <aleks@infrahouse.com>  Wed, 08 Nov 2023 06:26:22 -0800
+
 infrahouse-puppet-data (0.1.0-1) jammy; urgency=medium
 
   [ Oleksandr Kuzminskyi ]
