@@ -24,7 +24,7 @@ BROWSER := python -c "$$BROWSER_PYSCRIPT"
 OS_VERSION ?= jammy
 
 PWD := $(shell pwd)
-INSTALL_DIR = "/opt/puppet-code"
+INSTALL_DIR = "/opt/infrahouse-puppet-data"
 
 help:
 	@python -c "$$PRINT_HELP_PYSCRIPT" < $(MAKEFILE_LIST)
