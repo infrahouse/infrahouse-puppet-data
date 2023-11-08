@@ -1,0 +1,6 @@
+infrahouse-puppet-data (0.1.0-1) jammy; urgency=medium
+
+  [ Oleksandr Kuzminskyi ]
+  * Initial release
+
+ -- MediaPC <aleks@MediaPC.localdomain>  Wed, 08 Nov 2023 07:28:29 -0700

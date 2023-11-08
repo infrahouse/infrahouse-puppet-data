@@ -1,0 +1,16 @@
+Source: infrahouse-puppet-data
+Priority: optional
+Maintainer: Oleksandr Kuzminskyi <aleks@infrahouse.com>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.1
+Section: admin
+Homepage: https://infrahouse.com
+Vcs-Browser: https://github.com/infrahouse/infrahouse-puppet-data
+Vcs-Git: https://github.com/infrahouse/infrahouse-puppet-data.git
+
+Package: infrahouse-puppet-data
+Architecture: all
+Depends: puppet-agent, puppet-code
+Description: InfraHouse Puppet Hiera data.
+ Puppet is the second layer of provisioning in InfraHouse.
+ This package contains hiera data with InfraHouse specific configuration.

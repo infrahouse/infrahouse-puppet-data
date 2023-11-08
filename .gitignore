@@ -1,0 +1,21 @@
+### Puppet template
+# gitignore template for Puppet modules
+# website: https://forge.puppet.com/
+
+# Built packages
+pkg/*
+
+# Tests
+spec/fixtures/*
+coverage/*
+
+# Third-party
+vendor/*
+.bundle/*
+
+.idea
+/debian/.debhelper/
+/debian/files
+/debian/debhelper-build-stamp
+/debian/infrahouse-puppet-data.substvars
+/debian/infrahouse-puppet-data/
