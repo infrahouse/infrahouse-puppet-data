@@ -2,7 +2,21 @@
 
 set -eux
 
+
+function generate_changelog() {
+  current_version=$(grep current_version setup.cfg | awk '{ print $3}')
+  cat > debian/changelog << EOF
+infrahouse-puppet-data (${current_version}-1build$(date +%s)) jammy; urgency=medium
+
+  * commit event. see changes history in git log
+
+ -- Oleksandr Kuzminskyi <aleks@infrahouse.com>  $(date)
+
+EOF
+}
+
 pkg_name="infrahouse-puppet-data"
+generate_changelog
 upstream_version=$(head -1 debian/changelog | awk '{ print $2 }' | sed -e 's/[()]//g' | awk -F- '{ print $1 }')
 TMPDIR=$(mktemp -d)
 

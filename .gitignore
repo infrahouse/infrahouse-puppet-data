@@ -19,3 +19,4 @@ vendor/*
 /debian/debhelper-build-stamp
 /debian/infrahouse-puppet-data.substvars
 /debian/infrahouse-puppet-data/
+/debian/changelog
