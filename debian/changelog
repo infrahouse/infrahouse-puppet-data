@@ -1,0 +1,48 @@
+infrahouse-puppet-data (0.1.0-1build7) jammy; urgency=medium
+
+  * commit event. see changes history in git log
+
+ -- Oleksandr Kuzminskyi <aleks@infrahouse.com>  Tue, 26 Mar 2024 15:05:10 -0700
+
+infrahouse-puppet-data (0.1.0-1build6) jammy; urgency=medium
+
+  * commit event. see changes history in git log
+
+ -- Oleksandr Kuzminskyi <aleks@infrahouse.com>  Tue, 26 Mar 2024 15:04:50 -0700
+
+infrahouse-puppet-data (0.1.0-1build5) jammy; urgency=medium
+
+  * commit event. see changes history in git log
+
+ -- Oleksandr Kuzminskyi <aleks@infrahouse.com>  Tue, 05 Dec 2023 14:03:51 -0800
+
+infrahouse-puppet-data (0.1.0-1build4) jammy; urgency=medium
+
+  * commit event. see changes history in git log
+
+ -- Oleksandr Kuzminskyi <aleks@infrahouse.com>  Sat, 25 Nov 2023 10:35:41 -0800
+
+infrahouse-puppet-data (0.1.0-1build3) jammy; urgency=medium
+
+  * commit event. see changes history in git log
+
+ -- Oleksandr Kuzminskyi <aleks@infrahouse.com>  Fri, 23 Nov 2023 06:27:05 -0800
+
+infrahouse-puppet-data (0.1.0-1build2) jammy; urgency=medium
+
+  * commit event. see changes history in git log
+
+ -- Oleksandr Kuzminskyi <aleks@infrahouse.com>  Wed, 08 Nov 2023 06:27:05 -0800
+
+infrahouse-puppet-data (0.1.0-1build1) jammy; urgency=medium
+
+  * commit event. see changes history in git log
+
+ -- Oleksandr Kuzminskyi <aleks@infrahouse.com>  Wed, 08 Nov 2023 06:26:22 -0800
+
+infrahouse-puppet-data (0.1.0-1) jammy; urgency=medium
+
+  [ Oleksandr Kuzminskyi ]
+  * Initial release
+
+ -- MediaPC <aleks@MediaPC.localdomain>  Wed, 08 Nov 2023 07:28:29 -0700
