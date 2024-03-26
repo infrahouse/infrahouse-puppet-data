@@ -1,0 +1,10 @@
+---
+classes:
+  - role::mta
+
+profile::postfix::myhostname: mail.twindb.com
+profile::postfix::mydomain: twindb.com
+profile::postfix::mydestination:
+  - twindb.com
+profile::postfix::relayhost: []
+profile::postfix::mynetworks: []
