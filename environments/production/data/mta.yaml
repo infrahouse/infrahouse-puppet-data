@@ -2,7 +2,7 @@
 classes:
   - role::mta
 
-profile::postfix::myhostname: mail.twindb.com
+profile::postfix::myhostname: mail
 profile::postfix::mydomain: twindb.com
 profile::postfix::mydestination:
   - twindb.com
