@@ -6,5 +6,4 @@ profile::postfix::myhostname: mail
 profile::postfix::mydomain: twindb.com
 profile::postfix::mydestination:
   - twindb.com
-profile::postfix::relayhost: []
 profile::postfix::mynetworks: []
