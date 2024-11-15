@@ -7,3 +7,20 @@ profile::postfix::mydomain: twindb.com
 profile::postfix::mydestination:
   - twindb.com
 profile::postfix::mynetworks: []
+profile::postfix::blacklist_senders:
+  - /.*flexera\.com$/
+  - /.*hilbgroup\.com$/
+  - /.*zohomail\.eu$/
+  - /do-not-reply@market.envato.com/
+  - /noreply.notifications@trustpilot.com/
+  - /.*\.ru$/
+  - /notification@emails.avast.com/
+  - /.*bva-bdrc\.com$/
+  - /siarkowicz@google.com/
+  - /jablair@redhat.com/
+  - /noreply@mail.community.adobe.com/
+  - /team@pulumi.com/
+  - /email@news.travis-ci.com/
+  - /electricbillreducenotification@gmail.com/
+  - /clientsupport@livehelpnow.com/
+  - /content@redcanary.com/
