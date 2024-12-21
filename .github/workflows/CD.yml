@@ -25,7 +25,7 @@ jobs:
         runs-on: ubuntu-22.04
         strategy:
             matrix:
-                codename: ["focal", "jammy", "noble"]
+                codename: ["jammy", "noble"]
         steps:
             - uses: actions/checkout@v3
 
@@ -35,6 +35,10 @@ jobs:
                   role-to-assume: ${{ env.ROLE_ARN }}
                   role-session-name: github-actions
                   aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
+
+            - name: Install InfraHouse APT repository
+              run: |
+                sudo make install-infrahouse-repo
 
             - name: Install dependencies
               run: |
