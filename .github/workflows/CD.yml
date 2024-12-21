@@ -25,7 +25,7 @@ jobs:
         runs-on: ubuntu-22.04
         strategy:
             matrix:
-                codename: ["jammy", "noble"]
+                codename: ["jammy", "noble", "oracular"]
         steps:
             - uses: actions/checkout@v3
 
