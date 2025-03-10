@@ -2,4 +2,6 @@
 classes:
   - role::webserver
 
-profile::webserver::website_version: '0.1.0-1build19'
+# first version
+# profile::webserver::website_version: '0.1.0-1build19'
+profile::webserver::website_version: latest
