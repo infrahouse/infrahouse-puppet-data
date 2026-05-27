@@ -34,7 +34,8 @@ hooks:
 	test -L .git/hooks/pre-commit || ln -fs ../../hooks/pre-commit .git/hooks/pre-commit
 
 bootstrap:
-	apt-get -y install devscripts \
+	apt-get -y install build-essential \
+		devscripts \
 		debhelper
 
 all:
